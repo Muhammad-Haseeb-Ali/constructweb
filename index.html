@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <img class="nav-logo" src="./images/smalllogo.svg" alt="">
+        <ul>
+            <li><a href="#slider" class="smoothScroll">Home</a></li>
+            <li><a href="#welcome-note" class="smoothScroll">About us</a></li>
+            <li><a href="#contact-us" class="smoothScroll">Contact us</a></li>
+        </ul>
+    </nav>
+    <div id="slider">
+        <figure>
+            <img src="./images/20220924_113529.jpg" alt>
+            <img src="./images/20220926_131425.jpg" alt>
+            <img src="./images/Kremena - Peljeski Most Slika - Cropped.jpg" alt>
+        </figure>
+        <main>
+            <h1>Build Your Construction</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged.</p>
+            <div>
+                <button><a href="#welcome-note">About us</a></button>
+                <button><a href="#contact-us">Contact us</a></button>
+            </div>
+        </main>
+    </div>
+    <section id="welcome-note">
+        <h2>We Build for Your Comfort</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged.</p>
+    </section>
+    <section id="intro">
+        <div id="cards">
+            <div id="card">
+                <h5>Who we are</h5>
+                <p>Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor</p>
+            </div>
+            <div id="card">
+                <h5>What we do</h5>
+                <p>Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor</p>
+            </div>
+            <div id="card">
+                <h5>Why Choose Us</h5>
+                <p>Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact-us">
+        <h2>Feel free to Contact us</h2>
+        <!-- CONTACT FORM -->
+        <form action="sendemail.php" method="post">
+            <label for="name">Name:</label><br/>
+            <input type="text" id="name" name="name"><br/>
+          
+            <label for="email">Email:</label><br/>
+            <input type="email" id="email" name="email"><br/>
+          
+            <label for="subject">Subject:</label><br/>
+            <input type="text" id="subject" name="subject"><br/>
+          
+            <label for="message">Message:</label><br/>
+            <textarea id="message" name="message" ></textarea><br/>
+          
+            <input id="submit" type="submit" value="Submit">
+          </form>
+    </section>
+    <section id="location">
+        <h2>Find Us on Google Map</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quo beatae quasi assumenda, expedita
+            aliquam minima tenetur maiores neque incidunt repellat aut voluptas hic dolorem sequi ab porro, quia error.
+        </p>
+        <iframe id="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26572.96934059439!2d73.04713338285408!3d33.6410633660479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df94df4757096d%3A0x4a21728543b52192!2sSatellite%20Town%2C%20Rawalpindi%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1675320336297!5m2!1sen!2s"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <footer>
+        <section class="footer">
+            <div class="brand">
+                <div class="logo">
+                    <img src="./images/largelogo.svg" alt="" width="120px">
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+            <div class="links">
+                <div class="h5">Links</div>
+                <a href="#slider" class="smoothScroll">Home</a>
+                <a href="#welcome-note" class="smoothScroll">About us</a>
+                <a href="#contact-us" class="smoothScroll">Contact us</a>
+            </div>
+            <div class="contact">
+                <div class="h5">We ar Available</div>
+                <a href="#"><i class="fa-solid fa-phone"></i> 0141 611 0878</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i> haseeb.aha786@gmail.com</a>
+                <a href="#map"><i class="fa-solid fa-location-dot"></i> 2 Stepps Road, Glasgow, G66 5DH</a>
+            </div>
+        </section>
+
+        <section class="copyright">
+            <p><span>©</span> 2022 Rights Reserved,</p>
+            <p>
+                <a href="#privacy">Privacy</a>
+                |
+                <a href="#terms">Terms & Conditions</a>
+                |
+                <a href="#security">Security & Privacy</a>
+            </p>
+        </section>
+    </footer>
+</body>
+
+</html>
